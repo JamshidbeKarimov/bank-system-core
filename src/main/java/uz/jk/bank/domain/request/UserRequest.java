@@ -1,6 +1,7 @@
 package uz.jk.bank.domain.request;
 
 import lombok.*;
+import uz.jk.bank.domain.constants.UserRole;
 
 import java.time.LocalDate;
 
@@ -15,4 +16,5 @@ public class UserRequest {
     private String password;
     private String email;
     private LocalDate dateOfBirth;
+    private UserRole role;
 }
