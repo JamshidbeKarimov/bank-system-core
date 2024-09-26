@@ -9,10 +9,7 @@ import java.time.LocalDateTime;
 @Getter
 @Setter
 @Builder
-public class CustomerResponse {
-    private String id;
-    private LocalDateTime createdAt;
-    private LocalDateTime updatedAt;
+public class CustomerResponse extends BaseResponse{
     private String firstName;
     private String lastName;
     private String phoneNumber;
